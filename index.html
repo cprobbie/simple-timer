@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Timer App</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Timer App</h1>
+      <div class="timer-display">
+        <span id="minutes">00</span>:<span id="seconds">00</span>
+      </div>
+      <div class="controls">
+        <button id="start">Start</button>
+        <button id="pause">Pause</button>
+        <button id="reset">Reset</button>
+        <button id="set-time">Set Time</button>
+      </div>
+      <div class="settings">
+        <h2>Settings</h2>
+        <label for="background-color">Background Color:</label>
+        <input type="color" id="background-color" />
+        <label for="font-size">Font Size:</label>
+        <input type="number" id="font-size" min="10" max="50" />
+      </div>
+      <div class="help">
+        <h2>Help</h2>
+        <p>To use the timer, click the start button to begin counting down. You can pause and reset the timer at any time. To set a custom timer length, click the "Set Time" button and enter the desired number of minutes and seconds.</p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
